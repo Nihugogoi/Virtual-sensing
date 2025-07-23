@@ -4,7 +4,6 @@ This project presents the machine learning pipleine to predict the water quality
 # Chosen model 
 Model: Transformer
 
-
  
 # Important Files (Offline/PC)
 
@@ -26,11 +25,14 @@ rpi_inference.py : inference time from both .pth model and .onnx model
 rpi_metrics.py : performance evaluation of deployed model
  
  
- #Figure references
+# Important Files (Dataset)
+ Trainset : Files/Palma_final.csv
  
- #Table references
+ Testset 1 : Files/Cabrera_final.csv
  
+ Testset 2 : Files/Daniel2.csv
  
+ RPi test :  Files/Cabrera.csv
  
  
  

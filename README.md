@@ -26,13 +26,21 @@ rpi_metrics.py : performance evaluation of deployed model
  
  
 # Important Files (Dataset)
- Trainset : Files/Palma_final.csv
+ Trainset : Files/Palma_final.csv 
  
  Testset 1 : Files/Cabrera_final.csv
  
  Testset 2 : Files/Daniel2.csv
  
  RPi test :  Files/Cabrera.csv
+
+
+ # Original data source
+ Trainset: https://apps.socib.es/data-catalog/data-products/buoy_bahiadepalma_physicochemical_parameters
+ 
+ Testset 1: https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/715df37d-0594-4371-ac2d-3336f4fca659
+ 
+ Testset 2: https://www.kaggle.com/datasets/downshift/water-quality-monitoring-dataset
  
  
  

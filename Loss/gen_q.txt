@@ -1,0 +1,7 @@
+Error Metric,Value
+MSE,27.1777
+MAE,4.6102
+R²,-0.3094
+Pearson Correlation,-0.9396
+RMSE,5.1698
+Standard deviation, 4.5561

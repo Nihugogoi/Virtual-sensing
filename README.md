@@ -4,11 +4,10 @@ This project presents the machine learning pipleine to predict the water quality
 # Chosen model 
 Model: Transformer
 
-#Directory overview
 
  
-# Important Files 
-# Offline/PC
+# Important Files (Offline/PC)
+
 Functions_VS.py : All functions are defined in this file and called in the main file where necessary. The functions are related to - (1) model parameters, (2) Transformer model, (3) scale, split and preprocess dataset, (4) model training, (5) model count features, (6) evalutaion of performance metrics, (7) run trained model and visualise
 
 Pretrain_VS_Temp.py : Load dataset and train models
@@ -17,7 +16,7 @@ Reconstruct_VS_Temp.py : Implement trained models for data visulation
 
 Convert_ONNX.py : Converts model format from .pth to .onnx 
 
-# RPi deployment
+# Important Files (RPi deployment)
 pH_DO_pth.py : inference file in RPi with .pth model
 
 pH_DO_onnx.py : inference file in RPi with .onnx model P.S: The inference test in the edge is done with a small dataset (downsampled to daily data). 
